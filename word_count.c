@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void count(FILE *fp, int *countWord, int *countLine, int *countChar){
+void count(FILE *fp, int *countWord, int *countLine, int *countChar){	//function that updates the word count, char count, and line count
 	char ch;		//variable that represents each character
 	int spaces = 1;		//variable to help keep track of spaces
 	
