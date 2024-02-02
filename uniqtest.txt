@@ -1,0 +1,6 @@
+This is a test file for the uniq command.
+It contains some repeated lines.
+It contains some repeated lines.
+And some are different.
+It contains some repeated lines.
+It contains some repeated lines.

@@ -1,0 +1,6 @@
+this is a test for wordcount
+it should have
+88 characters
+14words
+6lines
+checkingitnow!
