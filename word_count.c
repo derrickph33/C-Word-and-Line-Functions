@@ -25,11 +25,11 @@ void count(FILE *fp, int *countWord, int *countLine, int *countChar){	//function
 	}
 }
 
-int main(int argc, char *argv[]){
+int main(int argc, char *argv[]){ //main
 	FILE *fp;		//variable for file pointer
 	if (argc == 2){		//if statement checking if we have entered a file with a.out
 		fp = fopen(argv[1], "r");
-        	if (fp == NULL){	//checking if file exists
+        	if (fp == NULL){	//checking if file exists or if fp is NULL
                  	printf("File not Found");
                 	return 1;
         	}

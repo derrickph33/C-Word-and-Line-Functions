@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-void printLines(FILE *fp){		//function that emulates the uniq functionality
+void printLines(FILE *fp){		//function that emulates the uniq functionality and prints the lines accordingly
 	char *currentLine = NULL;	//pointer for current line
 	char *lastLine = NULL;		//pointer for last or previous line
 	size_t linesize = 0;		//variable representing linesize 
